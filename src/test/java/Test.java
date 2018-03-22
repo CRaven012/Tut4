@@ -1,3 +1,4 @@
+import junit.framework.*;
 
 public class Test extends TestCase {
     protected int value1, value2;
