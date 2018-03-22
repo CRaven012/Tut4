@@ -9,7 +9,5 @@ public class Test extends TestCase {
     public void testAdd(){
         double result = value1 + value2;
         assertEquals(m.Multiply(3,4),48);
-        assertEquals(m.Multiply(3,4),47);
-        System.out.println("hello");
     }
 }
