@@ -6,9 +6,7 @@ import com.google.code.tempusfugit.concurrency.annotations.Intermittent;
 
 @RunWith(IntermittentTestRunner.class)
 public class Flaky {
-    @Test
+    @Te
     @Intermittent(repetition = 10)
     public void test() {
         System.out.println("test");
-    }
-}
