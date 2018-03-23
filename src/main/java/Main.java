@@ -18,6 +18,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println(Multiply(3, 4));
+        System.out.println(Multiply(5, 8));
         System.out.println(Divide(2, 2));
         System.out.println(Divide(3, 0));
 
