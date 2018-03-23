@@ -1,4 +1,4 @@
-public class Main {
+public class SampleMain{
 
     public static int Multiply(int x, int y) {
         int xx = x * 2;
@@ -11,13 +11,12 @@ public class Main {
         if (x == 0 | y == 0) {
             return -1;
         } else {
-            divide = x / y;
+            divide = x * y;
         }
         return divide;
     }
 
     public static void main(String[] args) {
-        System.out.println(Multiply(3, 4));
         System.out.println(Multiply(5, 8));
         System.out.println(Divide(2, 2));
         System.out.println(Divide(3, 0));
