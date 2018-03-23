@@ -19,4 +19,8 @@ public class Test extends TestCase {
     public void testDiv0() {
         assertEquals("Cannot divide by 0",m.Divide(3,0),-1);
     }
+
+    public void testA() {
+        assertEquals(m.Divide(4,2),2);
+    }
 }
