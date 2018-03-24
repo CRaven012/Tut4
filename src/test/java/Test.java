@@ -3,8 +3,12 @@ import junit.framework.*;
 public class Test extends TestCase {
     SampleMain test = new SampleMain();
 
+    public void testAdd(){
+        assertEquals(test.add(3,4),7);
+    }
+
     public void testMul(){
-        assertEquals(test.Multiply(3,4),48);
+        assertEquals(test.Multiply(3,4),12);
     }
 
     public void testDiv() {
