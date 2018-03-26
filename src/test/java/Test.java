@@ -6,6 +6,9 @@ public class Test extends TestCase {
     public void testAdd(){
         assertEquals(test.add(3,4),7);
     }
+    public void testAdd(){
+        assertEquals(test.subtract(3,4),7);
+    }
 
     public void testMul(){
         assertEquals(test.Multiply(3,4),12);
